@@ -15,3 +15,4 @@ var lengthHobby3 = hobby3.length;
 var sumResult = lengthHobby1 + lengthHobby2 + lengthHobby3
 console.log(`Sum of all characters in my hobbies is :  ${sumResult}`);
 
+console.log(`*******************************************************************************`);
