@@ -1,0 +1,16 @@
+console.log(`---------------- Implicit String Conversion to Number ------------------`);
+var result = '4' - '2';
+console.log(`${result}`);
+console.log(`result is 2 because their is implicit conversion from string '4' to number 4 and string '2' to number 2`);
+console.log(`---------------------------------------------------------------------------------`);
+var result = '4' - 2;
+console.log(`${result}`);
+console.log(`result is 2 because their is implicit conversion from string '4' to number 4`);
+console.log(`---------------------------------------------------------------------------------`);
+var result = '4' * 2;
+console.log(`${result}`);
+console.log(`result is 8 because their is implicit conversion from string '4' to number 4`);
+console.log(`---------------------------------------------------------------------------------`);
+var result = '4' / 2;
+console.log(`${result}`);
+console.log(`result is 2 because their is implicit conversion from string '4' to number 4`);
