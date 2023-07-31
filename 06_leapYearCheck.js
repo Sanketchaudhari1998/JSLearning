@@ -1,9 +1,9 @@
 var leapYear = function (year) {
   var invalid = +year;
-  if (year == null || isNaN(invalid)) {
+  if (year <= 0 || isNaN(invalid)) {
     console.log(`${year} is invalid data`);
   } else {
-    if (year % 4 == 0) {
+    if ((year % 4 == 0 ) && (year % 100 != 0) || (year % 400 == 0)){
       console.log(`${year} is a leap year`);
     } else {
       console.log(`${year} is not a leap year`);
@@ -20,3 +20,4 @@ leapYear("Twenty Twenty");
 leapYear(undefined);
 leapYear(NaN);
 leapYear(1750);
+leapYear(1700);
