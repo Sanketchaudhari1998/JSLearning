@@ -66,7 +66,11 @@ for (let index = 0; index <30 ; index=index+2) {
 console.log(`------- while loop ---------`);
 // Numbers from 1 to 10
 var i = 1;
-while (i<=10) {
+while (i<=10) {  
     console.log(i);
     i++;
+    
 }
+
+
+
