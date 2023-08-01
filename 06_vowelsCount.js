@@ -25,18 +25,19 @@ let sum = function(){
  }
  sum();
 
-
+console.log(`-------- oddPositionedChar ---------`);
  function oddPositionedChars(str) {
+    console.log(`------ ${str} -----------`);
     for (let index = 0; index < str.length; index++) {
         const char = str.charAt(index);
         
         // Log only odd positioned chars on console and do not consider empty spaces
 
-        if (char % 2 != 0 && char != " ") {
+        if (index % 2 != 0 && char != " ") {
             console.log(char);
         }
     }
-
+console.log(`-----------------`);
 }
 oddPositionedChars("hello");
 oddPositionedChars("test");
