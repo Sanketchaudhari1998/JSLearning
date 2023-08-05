@@ -9,7 +9,7 @@ map.set("state" ,"MH");
 map.set("isMarried" ,true);
 map.set("haveKid" ,true );
 map.set("skills" , ["Angular", "React", "Java", "Docker", "K8", "CICD"] );
-// console.table(map);
+ console.table(map);
 
 console.log(map.size);
 
