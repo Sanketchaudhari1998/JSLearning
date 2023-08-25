@@ -1,5 +1,6 @@
 console.log(`--------------------- step - 1 -----------------------`);
 const arrayNumbers = [1,-7,40,502,-77,91,0,108,89,-601];
+console.log(arrayNumbers);
 arrayNumbers.forEach((num)=>{
     console.log(`Element : ${num} _ index : ${arrayNumbers.indexOf(num)}`);
    
