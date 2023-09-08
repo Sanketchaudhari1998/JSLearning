@@ -24,3 +24,5 @@ let between = array_numbers.filter((element)=>{
     return element>20 && element<50 ;
 })
 console.log(between);
+
+
