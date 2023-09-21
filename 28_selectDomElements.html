@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select DOM Element</title>
+</head>
+<body>
+    <div id="overview">
+        <h1 id="heading">HTML and JavaScript are crucial technologies</h1>
+        <p>The web would not work without them...</p>
+    </div>
+    <div id="advantages">
+        <ul>
+            <li>Flexible</li>
+            <li id="secondAdvantage">Available</li>
+            <li>Magical</li>
+        </ul>
+    </div>
+    <script>
+        const mainHeading = document.getElementById('heading')
+        const secondAdvantage = document.getElementById('secondAdvantage');
+        const advDiv = document.querySelectorAll('#advantages')
+
+        console.log(mainHeading.innerHTML);
+        console.log(secondAdvantage.innerHTML);
+        console.log(advDiv[0].innerHTML);
+        console.log(advDiv[1].innerHTML);
+        console.log(advDiv[2].innerHTML);
+    </script>
+</body>
+</html>
